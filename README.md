@@ -2,7 +2,7 @@
 
 Bitfocus Companion v3 module for EZCast Pro / Actions Micro AM8270 / PWAY/PWAYTek ProAV POE IP KVM devices such as:
 
-![DT214M / AM8270 POE IP KVM extender](assets/device.jpg)
+![DT214M / AM8270 POE IP KVM extender](assets/device.jpeg)
 
 - ER02 / ProAVRx receiver
 - ET01 / ProAVTx transmitter
