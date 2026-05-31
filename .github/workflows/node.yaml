@@ -21,19 +21,22 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22.x
+      - name: Prepare Environment
+        run: |
+          corepack enable
       - name: Prepare module
         run: |
-          npm ci
+          yarn install
         env:
           CI: true
       - name: Build and check types
         run: |
-          npm run build
+          yarn build
         env:
           CI: true
       - name: Run lint
         run: |
-          npm run lint
+          yarn lint
         env:
           CI: true
 
@@ -51,12 +54,13 @@ jobs:
   #         node-version: 22.x
   #     - name: Prepare Environment
   #       run: |
-  #         npm ci
+  #         corepack enable
+  #         yarn install
   #       env:
   #         CI: true
   #     - name: Run tests
   #       run: |
-  #         npm test
+  #         yarn test
   #       env:
   #         CI: true
   #     - name: Send coverage

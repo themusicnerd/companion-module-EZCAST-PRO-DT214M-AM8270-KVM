@@ -1,7 +1,7 @@
 {
 	"$schema": "../node_modules/@companion-module/base/assets/manifest.schema.json",
 	"type": "connection",
-	"id": "ezcast-pro-dt214m-am8270-kvm",
+	"id": "EZCAST-PRO-DT214M-AM8270-KVM",
 	"name": "companion-module-EZCAST-PRO-DT214M-AM8270-KVM",
 	"shortname": "EZCast KVM",
 	"description": "Control EZCast Pro / Actions Micro AM8270 / PWAY DT214M POE IP KVM receivers over the CMS JSON-RPC API",
