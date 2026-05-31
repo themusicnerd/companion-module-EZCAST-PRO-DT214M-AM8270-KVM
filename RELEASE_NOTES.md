@@ -16,7 +16,7 @@ Initial Companion module for EZCast Pro / Actions Micro AM8270 / PWAY/PWAYTek Pr
 
 ## Package
 
-Attach `ezcast-pro-dt214m-am8270-kvm-0.1.0.tgz` to this release.
+Attach `EZCAST-PRO-DT214M-AM8270-KVM-0.1.0.tgz` to this release.
 
 ## Discovery Notes
 

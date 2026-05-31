@@ -43,10 +43,10 @@ https://www.aliexpress.com/item/1005007442824141.html
 ## Development
 
 ```sh
-npm install
-npm run build
-npm run lint
-npm run package
+yarn install
+yarn build
+yarn lint
+yarn package
 ```
 
-The package command writes `ezcast-pro-dt214m-am8270-kvm-0.1.0.tgz`.
+The package command writes `EZCAST-PRO-DT214M-AM8270-KVM-0.1.0.tgz`.
