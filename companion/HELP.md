@@ -1,6 +1,6 @@
-# EZCAST PRO DT214M AM8270 KVM
+# EZCastPro KVM
 
-Controls EZCast Pro / Actions Micro AM8270 / PWAY DT214M ProAV POE IP KVM receivers using the CMS JSON-RPC API exposed at:
+Controls EZCastPro / EZCast Pro POE IP KVM receivers using the CMS JSON-RPC API exposed at:
 
 ```text
 http://<receiver-ip>/cgi-bin/proav.cgi
@@ -16,12 +16,14 @@ http://<receiver-ip>/cgi-bin/proav.cgi
 
 For the local test rig:
 
-| Channel | Device | IP |
-| --- | --- | --- |
-| 21 | ET01_BF00DB2C | 192.168.96.113 |
-| 22 | ET01_28D83585 | 192.168.96.169 |
+| Channel | Device        | IP             |
+| ------- | ------------- | -------------- |
+| 21      | ET01_BF00DB2C | 192.168.96.113 |
+| 22      | ET01_28D83585 | 192.168.96.169 |
 
 ## Notes
+
+This module also applies to known rebrands and OEM variants using the same CMS ProAV API, including Actions Micro AM8270 and PWAY/PWAYTek DT214M-style POE IP KVM extenders.
 
 This module does not use keyboard HID hotkeys for switching. Current reverse engineering shows source switching is handled by the CMS `set_channel_id` method.
 

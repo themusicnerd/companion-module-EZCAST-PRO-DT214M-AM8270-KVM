@@ -1,6 +1,6 @@
-# companion-module-EZCAST-PRO-DT214M-AM8270-KVM
+# companion-module-ezcastpro-kvm
 
-Bitfocus Companion v3 module for EZCast Pro / Actions Micro AM8270 / PWAY/PWAYTek ProAV POE IP KVM devices such as:
+Bitfocus Companion v3 module for EZCastPro / EZCast Pro POE IP KVM devices, including Actions Micro AM8270 and PWAY/PWAYTek ProAV POE IP KVM rebrands such as:
 
 ![DT214M / AM8270 POE IP KVM extender](assets/device.jpg)
 
@@ -49,4 +49,4 @@ yarn lint
 yarn package
 ```
 
-The package command writes `EZCAST-PRO-DT214M-AM8270-KVM-0.1.0.tgz`.
+The package command writes `ezcastpro-kvm-0.1.1.tgz`.

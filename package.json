@@ -1,6 +1,6 @@
 {
-	"name": "companion-module-ezcast-pro-dt214m-am8270-kvm",
-	"version": "0.1.0",
+	"name": "companion-module-ezcastpro-kvm",
+	"version": "0.1.1",
 	"main": "dist/main.js",
 	"type": "module",
 	"scripts": {
@@ -13,7 +13,7 @@
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/themusicnerd/companion-module-EZCAST-PRO-DT214M-AM8270-KVM.git"
+		"url": "git+https://github.com/bitfocus/companion-module-ezcastpro-kvm.git"
 	},
 	"engines": {
 		"node": "^22.20"
